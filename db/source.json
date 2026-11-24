@@ -1,0 +1,65 @@
+{
+  "revision": "b47eadc85277f72843647223cde53aa1b85ffcb8",
+  "tables": {
+    "DimCurrency": {
+      "sha256": "9ff911e2d0447204806722e736d74e9686faad7c68b9fe896446ed83264239f6",
+      "rows": 105,
+      "columns": 3
+    },
+    "DimDate": {
+      "sha256": "1be7b27194b4b5dae6fb3d619d81c34c0757a748be6381e5d765c42c5db132f8",
+      "rows": 3652,
+      "columns": 19
+    },
+    "DimPromotion": {
+      "sha256": "dc54f4f21557dea85e3cf18e23c23649d71a2b740cdbb12130251a5a361dabec",
+      "rows": 16,
+      "columns": 16
+    },
+    "DimSalesTerritory": {
+      "sha256": "24945e074b1eb4d76a3c4e8eb750f12e13eccd20f504ed52951c85dd8e3c1c64",
+      "rows": 11,
+      "columns": 6,
+      "hex_columns": [
+        6
+      ]
+    },
+    "DimGeography": {
+      "sha256": "65dc2a96a63619a187215290941c19165b0a62541cd545428e169b805fbad685",
+      "rows": 655,
+      "columns": 11
+    },
+    "DimCustomer": {
+      "sha256": "548dd1ffefc1419952d777c985a6c216ce32624138ffeb2743b17b9c7964b6fc",
+      "rows": 18484,
+      "columns": 29
+    },
+    "DimProductCategory": {
+      "sha256": "1caaa9b3d7fcc7f238b1216115a502caaad5b9ca9ca035df098db515393c069d",
+      "rows": 4,
+      "columns": 5
+    },
+    "DimProductSubcategory": {
+      "sha256": "4496a2e75fc0279f80acb8b68a8a4e68f88b24271973f4a457e30e1a96cc1f90",
+      "rows": 37,
+      "columns": 6
+    },
+    "DimProduct": {
+      "sha256": "8e06a201098caef67bf6e38a93042738329d9fba5dac0f3dedb3dffbdac5c4f5",
+      "rows": 606,
+      "columns": 36,
+      "hex_columns": [
+        24
+      ],
+      "nul_as_empty": {
+        "7": 287,
+        "8": 287
+      }
+    },
+    "FactInternetSales": {
+      "sha256": "0f87171a41f56a40d7f5f6261286e3dde83c88178fff5d55a36636e6150ed3be",
+      "rows": 60398,
+      "columns": 26
+    }
+  }
+}
